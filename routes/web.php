@@ -19,7 +19,7 @@ $router->get('/', function () use ($router) {
 
 $router->group(['middleware'=>'json'], function () use ($router){
     
-    $router->post('/registrer', 'UsersController@registrer');
+    $router->post('/user/registrer', 'UsersController@registrer');
     $router->post('/login', 'UsersController@login');
 
     $router->get('/business', 'businessesController@index');
