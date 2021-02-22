@@ -9,7 +9,6 @@ class Document extends Model
     protected $primaryKey = "id";
 
     protected $fillable = [
-        'id',
         'tipo',
         'estado',
         'numero',

@@ -8,7 +8,13 @@ class ItemCustom extends Model{
     protected $primaryKey = "id";
 
 
-    protected $fillable = [];
+    protected $fillable = [
+        'descripcion',
+        'valor_unitario',
+        'created_at',
+        'modified_at',
+        'cantidad'
+    ];
 
     // public $timestamps = false;
 }
